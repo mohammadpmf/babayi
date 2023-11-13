@@ -1,0 +1,5 @@
+a = int(input("Enter number 1: "))
+b = int(input("Adade dovom ra vared konid: "))
+# print(a,'+',b,'=',a+b)
+print(f"{a}+{b}={a+b}")
+print(f"{a}-{b}={a-b}")

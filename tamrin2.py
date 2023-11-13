@@ -1,0 +1,7 @@
+name = input("Whats your name?")
+last_name = input("Whats your last name?")
+age = input ("Enter your age:")
+age = int(age)
+# print("Welcome", name, last_name)
+print(f"Welcome {name} {last_name}. You are {age} years old. You will be {age+1} next year.")
+print("Welcome", name, last_name, ". You are", age,"years old. You will be", age+1, "next year.")
